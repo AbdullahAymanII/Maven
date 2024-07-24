@@ -9,6 +9,7 @@ public class Main {
         int y =Main.subtract(10, 5);
         int z =Main.multiply(10, 5);
         int l =Main.divide(10, 5);
+        Main.print(String.format("Addition: %d", x));
     }
     public static void print(String s) {
         System.out.println(s);
